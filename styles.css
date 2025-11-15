@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(78, 78, 87);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    width: 80%;
+    max-width: 620px;
+    margin: 0;
+    border: 5px solid black;
+    background-color: rgb(108, 108, 110);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2em 1em 10px rgb(39, 46, 39);
+}
+h1{
+    font-size: 2em;
+    text-decoration: underline;
+    margin-bottom: 1em;
+}
+h2{
+    font-size: 1.9rem;
+}
+h3{
+    font-size: 1.6rem;
+}
+.setter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#timersInput{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+#start-input{
+    font-size: 0.9rem;
+    padding: 0.6rem;
+    margin: 0.8rem;
+    background-color: rgb(91, 126, 51);
+    border: 3px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+#end-input{
+    font-size: 0.9rem;
+    padding: 0.6rem;
+    margin: 0.8rem;
+    background-color: rgb(91, 126, 51);
+    border: 3px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+#countdown{
+    display: flex;
+    justify-content: space-around;
+}
+#countdown div{
+    text-align: center;
+    padding: 30px;
+    border: 4px solid rgb(24, 23, 23);
+    background-color: rgb(122, 122, 182);
+    border-radius: 7px;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+}
+span{
+    font-size: xx-large
+}
+.progress-container{
+    background-color: white;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 1.6rem;
+    overflow: hidden;
+}
+#progress-bar{
+    background-color: rgb(91,126,51);
+    width: 0%;
+    border-radius: 5px;
+    height: 100%;
+    transition: width 1s ease-in-out;
+}
+#start-button{
+    font-size: 20px;
+    border: 4px solid black;
+    padding: 0.6rem;
+    border-radius: 5px;
+    background-color: rgb(53, 73, 30);
+    color: silver;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
